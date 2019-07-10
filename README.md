@@ -17,10 +17,10 @@ cd teched2019-uiveri5
 ```
 To run tests
 ```bash
-uiveri5 --params.user=<user> --params.pass=<password>
+uiveri5
 ```
 # Support
-This project is provided "as-is"; there is no guarantee that raised issues will be answered or addressed in future releases.
+This project is provided "as-is": there is no guarantee that raised issues will be answered or addressed in future releases.
 
 # License
 Copyright (c) 2019 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the SAP Sample Code License, except as noted otherwise in the [LICENSE](LICENSE) file.
