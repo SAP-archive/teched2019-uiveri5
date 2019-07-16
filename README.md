@@ -2,7 +2,7 @@
 This project provides code samples and test case to demo UIVeri5 testing for teched2019 purpose. These testcases cover end-to-end, system and scenario tests.
 
 # Requirements
-To run the app, you need to have node and npm installed.
+To run the app, you need to have node and npm installed. In conf.js, baseUrl parameter contain the system under testing URL, so you need to change it with yours accordingly.
 
 # Download and Installation
 To run the app you have to do following steps:
