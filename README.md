@@ -1,5 +1,5 @@
 # Teched2019-UIVeri5 testing Hands On 
-This project provides code samples and test case to demo UIVeri5 testing for teched2019 purpose. These testcases cover system- and scenario tests.
+This project provides code samples and test case to demo UIVeri5 testing for teched2019 purpose. These testcases cover end-to-end, system and scenario tests.
 
 # Requirements
 To run the app, you need to have node and npm installed.
