@@ -17,7 +17,7 @@ cd teched2019-uiveri5
 ```
 To run tests
 ```bash
-uiveri5
+uiveri5 --params.user=<user> --params.pass=<password>
 ```
 # Support
 This project is provided "as-is"; there is no guarantee that raised issues will be answered or addressed in future releases.
