@@ -3,9 +3,9 @@ require('./pages/product');
 
 describe("teched", function () {
 
-	it("Should validate the home screen", function () {
-        	// Assertions
-		Then.onTheHomePage.theCategoryListShouldBeLoaded();
+	it("should validate the home screen", function () {
+        // Assertions
+		Then.onTheHomePage.iShouldSeeAllCategories();
 	});
 
 	it("Should search for a product", function () {
@@ -20,7 +20,8 @@ describe("teched", function () {
 		// Actions
 		When.onTheHomePage.iSelectTheFirstProduct();
 
-        	// Assertions
-		Then.onTheProductPage.theProductShouldBeLoaded();
+        // Assertions
+		Then.onTheProductPage.theProductTitleIsShown();
+		Then.onTheProductPage.theProductCouldBeOrdered();
 	});
 });

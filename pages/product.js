@@ -1,7 +1,7 @@
 module.exports = createPageObjects({
     Product: {
         assertions: {
-            theProductShouldBeLoaded: function () {
+            theProductTitleIsShown: function () {
                 var header = element(by.control({
                     controlType: 'sap.m.ObjectHeader',
                     bindingPath: {
@@ -9,7 +9,9 @@ module.exports = createPageObjects({
                     }
                 }));
                 expect(header.asControl().getProperty('title')).toBe('Flat Watch HD32');
+            },
 
+            theProductCouldBeOrdered: function() {
                 var button = element(by.control({
                     controlType: 'sap.m.Button',
                     I18NText: {

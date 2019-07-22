@@ -5,7 +5,7 @@ module.exports = createPageObjects({
                 var search = element(by.control({
                     id: 'searchField',
                     viewName: 'sap.ui.demo.cart.view.Home',
-                    interaction: "focus"
+                    interaction: "focus"    // interact with the focused element e.g. the input field
                 }))
                 search.sendKeys('Watch');
             },
@@ -20,7 +20,7 @@ module.exports = createPageObjects({
             }
         },
         assertions: {
-            theCategoryListShouldBeLoaded: function () {
+            iShouldSeeAllCategories: function () {
                 var list = element.all(by.control({
                     controlType: 'sap.m.StandardListItem',
                 }));
@@ -30,7 +30,8 @@ module.exports = createPageObjects({
                 var list = element.all(by.control({
                     controlType: 'sap.m.ObjectListItem',
                 }));
-                expect(list.get(0).asControl().getProperty('title')).toBe('Flat Watch HD32');
+                var firstItem = list.get(0);
+                expect(firstItem.asControl().getProperty('title')).toBe('Flat Watch HD32');
             }
         }
     }
