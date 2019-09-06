@@ -9,5 +9,10 @@ exports.config = {
         passFieldSelector: 'input[name="password"]',
         logonButtonSelector: 'input[type="submit"]',
       }
-    }   
+    },
+        takeScreenshot: {
+        onExpectFailure: false,
+        onExpectSuccess: false,
+        onAction: false
+    },
 }
