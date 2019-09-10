@@ -28,7 +28,7 @@ exports.config = {
           direct: {
               binaries: {
                   chromedriver: {
-                      version: "75.0.3770.140"
+                      version: "76.0.3809.126"
                   }
               }
           }
