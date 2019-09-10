@@ -10,20 +10,18 @@ exports.config = {
         logonButtonSelector: 'input[type="submit"]',
       }
     },
-    browsers: [{
-      browserName: 'chrome',
-      capabilities: {
-        chromedriverOptions: {
-          loggingTo: ['chromedriver.log']
-        },
-        chromeOptions: {
-          args: ['--no-sandbox']
-        }
-      }
-    }],
-        takeScreenshot: {
+    takeScreenshot: {
         onExpectFailure: true,
         onExpectSuccess: false,
         onAction: false
+    },
+    connectionConfigs: {
+        direct: {
+            binaries: {
+                chromedriver: {
+                    version: "75.0.3770.140"
+                }
+            }
+        }
     }
-}
+};
