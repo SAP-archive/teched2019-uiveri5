@@ -13,9 +13,6 @@ exports.config = {
   browsers: [{
     browserName: 'chrome',
     capabilities: {
-      chromedriverOptions: {
-        loggingTo: ['chromedriver.log']
-      },
       chromeOptions: {
           args: ['--disable-web-security',
                    '--disable-gpu',
@@ -23,14 +20,5 @@ exports.config = {
                 '--disable-dev-shm-usage']
       }
     }
-    }],
-      connectionConfigs: {
-          direct: {
-              binaries: {
-                  chromedriver: {
-                      version: "76.0.3809.126"
-                  }
-              }
-          }
-      }
+    }]
 };
