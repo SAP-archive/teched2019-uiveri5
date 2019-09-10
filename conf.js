@@ -15,6 +15,20 @@ exports.config = {
         onExpectSuccess: false,
         onAction: false
     },
+    browsers: [{
+  browserName: 'chrome',
+  capabilities: {
+    chromedriverOptions: {
+      loggingTo: ['chromedriver.log']
+    },
+    chromeOptions: {
+        args: ['--disable-web-security',
+                 '--disable-gpu',
+                '--disable-infobars',
+              '--disable-dev-shm-usage']
+    }
+  }
+}],
     connectionConfigs: {
         direct: {
             binaries: {
