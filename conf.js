@@ -10,6 +10,17 @@ exports.config = {
         logonButtonSelector: 'input[type="submit"]',
       }
     },
+    browsers: [{
+      browserName: 'chrome',
+      capabilities: {
+        chromedriverOptions: {
+          loggingTo: ['chromedriver.log']
+        },
+        chromeOptions: {
+          args: ['--no-sandbox']
+        }
+      }
+    }],
         takeScreenshot: {
         onExpectFailure: true,
         onExpectSuccess: false,
