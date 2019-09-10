@@ -9,33 +9,5 @@ exports.config = {
         passFieldSelector: 'input[name="password"]',
         logonButtonSelector: 'input[type="submit"]',
       }
-    },
-    takeScreenshot: {
-        onExpectFailure: true,
-        onExpectSuccess: false,
-        onAction: false
-    },
-    browsers: [{
-  browserName: 'chrome',
-  capabilities: {
-    chromedriverOptions: {
-      loggingTo: ['chromedriver.log']
-    },
-    chromeOptions: {
-        args: ['--disable-web-security',
-                 '--disable-gpu',
-                '--disable-infobars',
-              '--disable-dev-shm-usage']
-    }
-  }
-}],
-    connectionConfigs: {
-        direct: {
-            binaries: {
-                chromedriver: {
-                    version: "75.0.3770.140"
-                }
-            }
-        }
     }
 };
