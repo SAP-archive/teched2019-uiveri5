@@ -9,14 +9,5 @@ exports.config = {
         passFieldSelector: 'input[name="password"]',
         logonButtonSelector: 'input[type="submit"]',
       }
-    },
-    connectionConfigs: {
-        direct: {
-            binaries: {
-                chromedriver: {
-                    version: "75.0.3770.140"
-                }
-            }
-        }
     }
 }
