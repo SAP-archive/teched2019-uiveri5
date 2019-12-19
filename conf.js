@@ -1,7 +1,8 @@
 exports.config = {
     profile: "integration",        
-    baseUrl: "https://caa380-uiveri5demo2.cfapps.eu10.hana.ondemand.com/index.html",
-    auth: {
+    baseUrl: "https://sapui5nightly.int.sap.hana.ondemand.com/test-resources/sap/m/demokit/cart/webapp/index.html",
+   /*
+   auth: {
       "sapcloud-form": {
         user: "${params.user}",
         pass: "${params.pass}",
@@ -10,4 +11,5 @@ exports.config = {
         logonButtonSelector: 'input[type="submit"]',
       }
     }
+    */
 };
