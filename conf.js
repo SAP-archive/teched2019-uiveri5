@@ -1,6 +1,14 @@
 exports.config = {
     profile: "integration",        
     baseUrl: "https://sapui5.hana.ondemand.com/test-resources/sap/m/demokit/cart/webapp/index.html",
+    browsers: [{
+      browserName: 'chrome',
+      capabilities: {
+        chromeOptions: {
+			args: ["--disable-dev-shm-usage", "--no-sandbox", "--window-size=1920,1200"]
+        },
+      }
+    }]
    /*
    auth: {
       "sapcloud-form": {
