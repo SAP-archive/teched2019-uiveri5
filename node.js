@@ -7,7 +7,7 @@ const url = argv.url || 'https://www.google.com';
 const format = argv.format === 'jpeg' ? 'jpeg' : 'png';
 const viewportWidth = argv.viewportWidth || 1440;
 const viewportHeight = argv.viewportHeight || 900;
-const delay = argv.delay || 0;
+const delay = argv.delay || 100;
 const userAgent = argv.userAgent;
 const fullPage = argv.full;
 
