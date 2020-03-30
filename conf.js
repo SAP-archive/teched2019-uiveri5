@@ -19,7 +19,12 @@ exports.config = {
 		  onAction: false
 		}
 	  }
-	]
+	],
+	takeScreenshot: {
+		  onExpectFailure: false,
+		  onExpectSuccess: false,
+		  onAction: false
+		}
    /*
    auth: {
       "sapcloud-form": {
