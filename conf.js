@@ -1,6 +1,6 @@
 exports.config = {
     profile: "integration",        
-    baseUrl: "https://saaapui5.hana.ondemand.com/test-resources/sap/m/demokit/cart/webapp/index.html",
+    baseUrl: "https://cc2-710.wdf.sap.corp/ui?sap-client=715&sap-language=EN#Material-analyzeInventoryTurnover",
     browsers: [{
       browserName: 'chrome',
       capabilities: {
