@@ -1,14 +1,10 @@
-const execFile = require('child_process').execFile;
+const puppeteer = require('puppeteer');
 
-function launchHeadlessChrome(url, callback) {
-  // Assuming MacOSx.
-  const CHROME = '/usr/bin/google-chrome';
-  execFile(CHROME, ['--headless', '--disable-gpu', '--remote-debugging-port=9222', url], callback);
-}
+(async() => {
+const browser = await puppeteer.launch();
+const page = await browser.newPage();
+await page.goto('https://www.chromestatus.com', {waitUntil: 'networkidle2'});
+await page.pdf({path: 'page.pdf', format: 'A4'});
 
-launchHeadlessChrome('https://www.chromestatus.com', (err, stdout, stderr) => {
-  console.log(stdout)
-    console.log(err)
-  console.log(stderr)
-
-});
+await browser.close();
+})();
