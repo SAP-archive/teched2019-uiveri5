@@ -8,7 +8,18 @@ exports.config = {
 			args: ["--disable-dev-shm-usage", "--no-sandbox", "--window-size=1920,1200"]
         },
       }
-    }]
+    }],
+	reporters: [
+	  {
+		  name: './reporter/screenshotReporter', 
+		  screenshotsRoot: 'target/report/screenshots',
+		  takeScreenshot: {
+		  onExpectFailure: false,
+		  onExpectSuccess: false,
+		  onAction: false
+		}
+	  }
+	]
    /*
    auth: {
       "sapcloud-form": {
