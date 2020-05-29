@@ -1,10 +1,10 @@
 {
   "name": "uiveri5",
   "private": true,
-  "devDependencies": {
-    "uiveri5": "https://github.com/SAP/ui5-uiveri5.git"
-  },
   "scripts": {
     "test": "uiveri5"
+  },
+  "devDependencies": {
+    "@ui5/uiveri5": "^1.42.3"
   }
 }
