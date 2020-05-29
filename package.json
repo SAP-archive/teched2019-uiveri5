@@ -2,8 +2,7 @@
   "name": "uiveri5",
   "private": true,
   "devDependencies": {
-    "uiveri5": "https://github.com/SAP/ui5-uiveri5.git#v1.39.0",
-    "sinon": "^5.0.10"
+    "uiveri5": "https://github.com/SAP/ui5-uiveri5.git"
   },
   "scripts": {
     "test": "uiveri5"
