@@ -2,7 +2,7 @@ require('./pages/home');
 require('./pages/product');
 
 describe("teched", function () {
-
+	
 	it("should validate the home screen", function () {
         // Assertions
 		Then.onTheHomePage.iShouldSeeAllCategories();
