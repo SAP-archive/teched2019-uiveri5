@@ -1,0 +1,147 @@
+INFO: @ui5/uiveri5 v1.42.3
+DEBUG: Config from command-line: {"seleniumLoopback":false,"ignoreNothing":true,"v":1,"verbose":1,"conf":"/Users/i035254/projects/teched2019-uiveri5/conf.js"}
+DEBUG: Loading default config from: /Users/i035254/projects/teched2019-uiveri5/conf.js
+DEBUG: Adding module with ID "undefined" and name "undefined"under key "browsers"
+DEBUG: Loading config from: /Users/i035254/projects/ui5-uiveri5/conf/integration.profile.conf.js
+DEBUG: Adding module with ID "undefined" and name "./reporter/screenshotReporter"under key "reporters"
+DEBUG: Loading common profile config from: ../conf/profile.conf.js
+DEBUG: Adding module with ID "undefined" and name "./reporter/consoleReporter" under key "reporters"
+DEBUG: Adding module with ID "undefined" and name "./locators/jqueryLocator"under key "locators"
+DEBUG: Adding module with ID "undefined" and name "./locators/controlLocator"under key "locators"
+DEBUG: Adding module with ID "undefined" and name "./plugins/browserLogsPlugin"under key "plugins"
+DEBUG: Resolved runtime: {"browserName":"chrome","capabilities":{"chromeOptions":{"args":["--no-sandbox","--disable-dev-shm-usage","--disable-gpu","disable-infobars","--window-size=1600,900"]},"remoteWebDriverOptions":{"maximized":true}},"platformName":"mac","platformResolution":"1280x1024","browserVersion":"*","platformVersion":"*","ui5":{"theme":"belize","direction":"ltr","mode":"cozy"}}
+DEBUG: Config after resolving config file and profile: {"timeouts":{"waitForUI5Delta":200,"getPageTimeout":10000,"allScriptsTimeout":11000,"defaultTimeoutInterval":30000,"waitForUI5PollingInterval":400},"useClassicalWaitForUI5":false,"connection":"direct","connectionConfigs":{"direct":{"name":"./connection/directConnectionProvider","binaries":{"selenium":{"version":"3.12","patch":"0","filename":"selenium-server-standalone","url":"https://selenium-release.storage.googleapis.com/3.12/selenium-server-standalone-3.12.0.jar","executable":"selenium-server-standalone-3.12.0.jar"},"chromedriver":{"version":"{chrome.latest}","unzip":true,"filename":"chromedriver","baseurl":"https://chromedriver.storage.googleapis.com","url":"https://chromedriver.storage.googleapis.com/{chrome.latest}/chromedriver_mac64.zip","latestVersionUrl":"https://chromedriver.storage.googleapis.com/LATEST_RELEASE_{chrome.latest}","latestVersionFileUrl":"https://raw.githubusercontent.com/SAP/ui5-uiveri5/master/driverVersions.json","executable":{"win32":"chromedriver-{chrome.latest}.exe","mac64":"chromedriver-{chrome.latest}","linux32":"chromedriver-{chrome.latest}","linux64":"chromedriver-{chrome.latest}"}},"iedriver":{"version":"3.12","patch":"0","unzip":true,"filename":"IEDriverServer.exe","url":"http://selenium-release.storage.googleapis.com/3.12/IEDriverServer_Win32_3.12.0.zip","executable":"IEDriverServer.exe"},"geckodriver":{"version":"{latest}","unzip":"false","untar":"true","filename":"geckodriver","baseurl":"http://github.com/mozilla/geckodriver/releases","url":"http://github.com/mozilla/geckodriver/releases/download/{latest}/geckodriver-{latest}-macos.tar.gz","latestVersionUrlRedirect":"http://github.com/mozilla/geckodriver/releases/latest","executable":{"win32":"geckodriver-{latest}.exe","win64":"geckodriver-{latest}.exe","mac64":"geckodriver-{latest}","linux32":"geckodriver-{latest}","linux64":"geckodriver-{latest}"}}}}},"browserCapabilities":{"browser,chrome":{"android":{"*":{"deviceName":"android"}}},"firefox,ie,edge,safari,chrome,chromium":{"windows,mac,linux":{"*":{"remoteWebDriverOptions":{"maximized":true}}}},"chrome,chromium":{"*":{"*":{"chromeOptions":{"args":["--no-sandbox","--disable-dev-shm-usage","--disable-gpu","disable-infobars"]}}}},"safari":{"mac":{"*":{"safaridriverOptions":{"addArguments":["--legacy"]}}}},"chromeMobileEmulation":{"*":{"*":{"browserName":"chrome","remoteWebDriverOptions":{"maximized":false,"scaling":{"x":4,"y":4}},"chromeOptions":{"mobileEmulation":{"deviceMetrics":{"width":360,"height":560,"pixelRatio":4}},"args":["--no-sandbox","--disable-dev-shm-usage","--disable-gpu","--disable-infobars"]}}}},"chromeHeadless":{"*":{"*":{"browserName":"chrome","chromeOptions":{"args":["--headless","--no-sandbox","--disable-dev-shm-usage","--disable-gpu","--disable-infobars"]}}}}},"auth":"plain","authConfigs":{"plain":{"name":"./authenticator/plainAuthenticator"},"basic":{"name":"./authenticator/basicUrlAuthenticator"},"fiori-form":{"name":"./authenticator/formAuthenticator","userFieldSelector":"#USERNAME_BLOCK input","passFieldSelector":"#PASSWORD_BLOCK input","logonButtonSelector":"#LOGIN_LINK"},"sapcloud-form":{"name":"./authenticator/formAuthenticator","userFieldSelector":"#j_username","passFieldSelector":"#j_password","logonButtonSelector":"#logOnFormSubmit"},"github-form":{"name":"./authenticator/formAuthenticator","userFieldSelector":"#login_field","passFieldSelector":"#password","logonButtonSelector":"input[type=submit]","authorizationButtonSelector":"button[type=submit]","authorizationButtonTimeout":10000}},"matchers":[],"log":{"browser":{"level":"info"}},"specResolver":"./resolver/localSpecResolver","pageLoading":{"wait":"3000"},"takeScreenshot":{"onExpectFailure":true,"onExpectSuccess":true,"onAction":true},"profile":"integration","baseUrl":"https://openui5.hana.ondemand.com/test-resources/sap/m/demokit/cart/webapp/index.html","seleniumLoopback":false,"ignoreNothing":true,"v":1,"verbose":1,"browsers":[{"browserName":"chrome","capabilities":{"chromeOptions":{"args":["--no-sandbox","--disable-dev-shm-usage","--disable-gpu","disable-infobars","--window-size=1600,900"]},"remoteWebDriverOptions":{"maximized":true}},"platformName":"mac","platformResolution":"1280x1024","browserVersion":"*","platformVersion":"*","ui5":{"theme":"belize","direction":"ltr","mode":"cozy"}}],"conf":"/Users/i035254/projects/teched2019-uiveri5/conf.js","reporters":[{"name":"./reporter/screenshotReporter"},{"name":"./reporter/consoleReporter"}],"locators":[{"name":"./locators/jqueryLocator"},{"name":"./locators/controlLocator"}],"plugins":[{"name":"./plugins/browserLogsPlugin"}],"osTypeString":"mac64","runtimes":[{"browserName":"chrome","capabilities":{"chromeOptions":{"args":["--no-sandbox","--disable-dev-shm-usage","--disable-gpu","disable-infobars","--window-size=1600,900"]},"remoteWebDriverOptions":{"maximized":true}},"platformName":"mac","platformResolution":"1280x1024","browserVersion":"*","platformVersion":"*","ui5":{"theme":"belize","direction":"ltr","mode":"cozy"}}]}
+DEBUG: Current working directory: /Users/i035254/projects/teched2019-uiveri5
+DEBUG: Loading module: ./resolver/localSpecResolver with instance config: {}
+INFO: Resolving specs
+DEBUG: Resolving specs from: ["./*.spec.js"]
+DEBUG: Spec found, name: teched , path: /Users/i035254/projects/teched2019-uiveri5/teched.spec.js , url:https://openui5.hana.ondemand.com/test-resources/sap/m/demokit/cart/webapp/index.html
+DEBUG: Loading module: ./connection/directConnectionProvider with instance config: {"binaries":{"selenium":{"version":"3.12","patch":"0","filename":"selenium-server-standalone","url":"https://selenium-release.storage.googleapis.com/3.12/selenium-server-standalone-3.12.0.jar","executable":"selenium-server-standalone-3.12.0.jar"},"chromedriver":{"version":"{chrome.latest}","unzip":true,"filename":"chromedriver","baseurl":"https://chromedriver.storage.googleapis.com","url":"https://chromedriver.storage.googleapis.com/{chrome.latest}/chromedriver_mac64.zip","latestVersionUrl":"https://chromedriver.storage.googleapis.com/LATEST_RELEASE_{chrome.latest}","latestVersionFileUrl":"https://raw.githubusercontent.com/SAP/ui5-uiveri5/master/driverVersions.json","executable":{"win32":"chromedriver-{chrome.latest}.exe","mac64":"chromedriver-{chrome.latest}","linux32":"chromedriver-{chrome.latest}","linux64":"chromedriver-{chrome.latest}"}},"iedriver":{"version":"3.12","patch":"0","unzip":true,"filename":"IEDriverServer.exe","url":"http://selenium-release.storage.googleapis.com/3.12/IEDriverServer_Win32_3.12.0.zip","executable":"IEDriverServer.exe"},"geckodriver":{"version":"{latest}","unzip":"false","untar":"true","filename":"geckodriver","baseurl":"http://github.com/mozilla/geckodriver/releases","url":"http://github.com/mozilla/geckodriver/releases/download/{latest}/geckodriver-{latest}-macos.tar.gz","latestVersionUrlRedirect":"http://github.com/mozilla/geckodriver/releases/latest","executable":{"win32":"geckodriver-{latest}.exe","win64":"geckodriver-{latest}.exe","mac64":"geckodriver-{latest}","linux32":"geckodriver-{latest}","linux64":"geckodriver-{latest}"}}}}
+DEBUG: Setting getPageTimeout: 10000
+DEBUG: Setting allScriptsTimeout: 11000
+DEBUG: Setting defaultTimeoutInterval: 30000
+DEBUG: Resolved protractor multiCapabilities: [{"browserName":"chrome","platform":"MAC","chromeOptions":{"args":["--no-sandbox","--disable-dev-shm-usage","--disable-gpu","disable-infobars","--window-size=1600,900"]},"remoteWebDriverOptions":{"maximized":true},"runtime":{"browserName":"chrome","capabilities":{"chromeOptions":{"args":["--no-sandbox","--disable-dev-shm-usage","--disable-gpu","disable-infobars","--window-size=1600,900"]},"remoteWebDriverOptions":{"maximized":true}},"platformName":"mac","platformResolution":"1280x1024","browserVersion":"*","platformVersion":"*","ui5":{"theme":"belize","direction":"ltr","mode":"cozy"}}}]
+DEBUG: Loading BDD-style page object factory
+DEBUG: Loading module: ./plugins/browserLogsPlugin with instance config: {}
+DEBUG: Setting up connection provider environment
+INFO: Check for latest major version of: chromedriver
+INFO: Found latest major version of chromedriver: 83
+INFO: Check for latest version of: chromedriver
+INFO: Found latest version of chromedriver: 83.0.4103.39
+INFO: Found correct binary locally: /Users/i035254/projects/ui5-uiveri5/selenium/chromedriver-83.0.4103.39
+INFO: Executing 1 specs
+[18:03:25] D/launcher - Running with --troubleshoot
+[18:03:25] D/launcher - Protractor version: 5.3.2
+[18:03:25] D/launcher - Your base url for tests is https://openui5.hana.ondemand.com/test-resources/sap/m/demokit/cart/webapp/index.html
+[18:03:25] D/plugins - Plugin "Plugin #0" loaded.
+[18:03:25] I/launcher - Running 1 instances of WebDriver
+INFO: Opening webdriver connection with capabilities: {"browserName":"chrome","platform":"MAC","chromeOptions":{"args":["--no-sandbox","--disable-dev-shm-usage","--disable-gpu","disable-infobars","--window-size=1600,900"]},"count":1}
+DEBUG: Starting local chromedriver with executable: /Users/i035254/projects/ui5-uiveri5/selenium/chromedriver-83.0.4103.39
+[18:03:27] D/runner - WebDriver session successfully started with capabilities Capabilities {
+  map_:
+   Map {
+     'acceptInsecureCerts' => false,
+     'acceptSslCerts' => false,
+     'applicationCacheEnabled' => false,
+     'browserConnectionEnabled' => false,
+     'browserName' => 'chrome',
+     'chrome' => { chromedriverVersion:
+      '83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416})',
+     userDataDir:
+      '/var/folders/m0/x1hklybx1xd9023l5q6sv7pm0000gn/T/.com.google.Chrome.LXSY55' },
+     'cssSelectorsEnabled' => true,
+     'databaseEnabled' => false,
+     'goog:chromeOptions' => { debuggerAddress: 'localhost:54075' },
+     'handlesAlerts' => true,
+     'hasTouchScreen' => false,
+     'javascriptEnabled' => true,
+     'locationContextEnabled' => true,
+     'mobileEmulationEnabled' => false,
+     'nativeEvents' => true,
+     'networkConnectionEnabled' => false,
+     'pageLoadStrategy' => 'normal',
+     'platform' => 'Mac OS X',
+     'proxy' => {},
+     'rotatable' => false,
+     'setWindowRect' => true,
+     'strictFileInteractability' => false,
+     'takesHeapSnapshot' => true,
+     'takesScreenshot' => true,
+     'timeouts' => { implicit: 0, pageLoad: 300000, script: 30000 },
+     'unexpectedAlertBehaviour' => 'ignore',
+     'version' => '83.0.4103.106',
+     'webStorageEnabled' => true,
+     'webauthn:virtualAuthenticators' => true } }
+[18:03:27] D/runner - Running with spec files /Users/i035254/projects/teched2019-uiveri5/teched.spec.js
+DEBUG: Loading module: ./locators/jqueryLocator with instance config: {}
+DEBUG: Loading module: ./locators/controlLocator with instance config: {}
+DEBUG: Registering jquery locator
+DEBUG: Registering control locator
+DEBUG: Loading module: ./reporter/screenshotReporter with instance config: {}
+DEBUG: Loading module: ./reporter/consoleReporter with instance config: {}
+DEBUG: Runtime resolved from capabilities: {"browserName":"chrome","capabilities":{"chromeOptions":{"args":["--no-sandbox","--disable-dev-shm-usage","--disable-gpu","disable-infobars","--window-size=1600,900"]},"remoteWebDriverOptions":{"maximized":true}},"platformName":"mac","platformResolution":"1280x1024","browserVersion":"*","platformVersion":"*","ui5":{"theme":"belize","direction":"ltr","mode":"cozy"}}
+DEBUG: Maximizing browser window
+DEBUG: Loading module: ./authenticator/plainAuthenticator with instance config: {}
+INFO: Opening: https://openui5.hana.ondemand.com/test-resources/sap/m/demokit/cart/webapp/index.html
+DEBUG: Waiting for redirect to complete, current url: https://openui5.hana.ondemand.com/test-resources/sap/m/demokit/cart/webapp/index.html
+DEBUG: Initial page load wait: 3000ms
+INFO: UI5 Version: 1.79.0
+INFO: UI5 Timestamp: 202006152150
+INFO: Second try: Suite started: teched
+INFO: Spec started: should validate the home screen
+DEBUG: Screenshot created "target/report/screenshots/teched-should-validate-the-home-screen_0_pass_2020-06-18T15-03-34.png"
+INFO: Spec finished call is now
+BROWSER LOG: info: 2020-06-18 18:03:34.983810 Found a DOM reference for the control 'Element sap.m.StandardListItem#__item1-container-cart---homeView--categoryList-15'. Executing 'sap.ui.test.actions.Press' on the DOM element with ID '__item1-container-cart---homeView--categoryList-15' -  sap.ui.test.actions.Press
+BROWSER LOG: info: 2020-06-18 18:03:34.983655 Found a DOM reference for the control 'Element sap.m.StandardListItem#__item1-container-cart---homeView--categoryList-14'. Executing 'sap.ui.test.actions.Press' on the DOM element with ID '__item1-container-cart---homeView--categoryList-14' -  sap.ui.test.actions.Press
+BROWSER LOG: info: 2020-06-18 18:03:34.983495 Found a DOM reference for the control 'Element sap.m.StandardListItem#__item1-container-cart---homeView--categoryList-13'. Executing 'sap.ui.test.actions.Press' on the DOM element with ID '__item1-container-cart---homeView--categoryList-13' -  sap.ui.test.actions.Press
+BROWSER LOG: info: 2020-06-18 18:03:34.983334 Found a DOM reference for the control 'Element sap.m.StandardListItem#__item1-container-cart---homeView--categoryList-12'. Executing 'sap.ui.test.actions.Press' on the DOM element with ID '__item1-container-cart---homeView--categoryList-12' -  sap.ui.test.actions.Press
+BROWSER LOG: info: 2020-06-18 18:03:34.983175 Found a DOM reference for the control 'Element sap.m.StandardListItem#__item1-container-cart---homeView--categoryList-11'. Executing 'sap.ui.test.actions.Press' on the DOM element with ID '__item1-container-cart---homeView--categoryList-11' -  sap.ui.test.actions.Press
+BROWSER LOG: info: 2020-06-18 18:03:34.983010 Found a DOM reference for the control 'Element sap.m.StandardListItem#__item1-container-cart---homeView--categoryList-10'. Executing 'sap.ui.test.actions.Press' on the DOM element with ID '__item1-container-cart---homeView--categoryList-10' -  sap.ui.test.actions.Press
+BROWSER LOG: info: 2020-06-18 18:03:34.982794 Found a DOM reference for the control 'Element sap.m.StandardListItem#__item1-container-cart---homeView--categoryList-9'. Executing 'sap.ui.test.actions.Press' on the DOM element with ID '__item1-container-cart---homeView--categoryList-9' -  sap.ui.test.actions.Press
+BROWSER LOG: info: 2020-06-18 18:03:34.982600 Found a DOM reference for the control 'Element sap.m.StandardListItem#__item1-container-cart---homeView--categoryList-8'. Executing 'sap.ui.test.actions.Press' on the DOM element with ID '__item1-container-cart---homeView--categoryList-8' -  sap.ui.test.actions.Press
+BROWSER LOG: info: 2020-06-18 18:03:34.982419 Found a DOM reference for the control 'Element sap.m.StandardListItem#__item1-container-cart---homeView--categoryList-7'. Executing 'sap.ui.test.actions.Press' on the DOM element with ID '__item1-container-cart---homeView--categoryList-7' -  sap.ui.test.actions.Press
+BROWSER LOG: info: 2020-06-18 18:03:34.982205 Found a DOM reference for the control 'Element sap.m.StandardListItem#__item1-container-cart---homeView--categoryList-6'. Executing 'sap.ui.test.actions.Press' on the DOM element with ID '__item1-container-cart---homeView--categoryList-6' -  sap.ui.test.actions.Press
+BROWSER LOG: info: 2020-06-18 18:03:34.981989 Found a DOM reference for the control 'Element sap.m.StandardListItem#__item1-container-cart---homeView--categoryList-5'. Executing 'sap.ui.test.actions.Press' on the DOM element with ID '__item1-container-cart---homeView--categoryList-5' -  sap.ui.test.actions.Press
+BROWSER LOG: info: 2020-06-18 18:03:34.981794 Found a DOM reference for the control 'Element sap.m.StandardListItem#__item1-container-cart---homeView--categoryList-4'. Executing 'sap.ui.test.actions.Press' on the DOM element with ID '__item1-container-cart---homeView--categoryList-4' -  sap.ui.test.actions.Press
+BROWSER LOG: info: 2020-06-18 18:03:34.981590 Found a DOM reference for the control 'Element sap.m.StandardListItem#__item1-container-cart---homeView--categoryList-3'. Executing 'sap.ui.test.actions.Press' on the DOM element with ID '__item1-container-cart---homeView--categoryList-3' -  sap.ui.test.actions.Press
+BROWSER LOG: info: 2020-06-18 18:03:34.981385 Found a DOM reference for the control 'Element sap.m.StandardListItem#__item1-container-cart---homeView--categoryList-2'. Executing 'sap.ui.test.actions.Press' on the DOM element with ID '__item1-container-cart---homeView--categoryList-2' -  sap.ui.test.actions.Press
+BROWSER LOG: info: 2020-06-18 18:03:34.981044 Found a DOM reference for the control 'Element sap.m.StandardListItem#__item1-container-cart---homeView--categoryList-1'. Executing 'sap.ui.test.actions.Press' on the DOM element with ID '__item1-container-cart---homeView--categoryList-1' -  sap.ui.test.actions.Press
+BROWSER LOG: info: 2020-06-18 18:03:34.980584 Found a DOM reference for the control 'Element sap.m.StandardListItem#__item1-container-cart---homeView--categoryList-0'. Executing 'sap.ui.test.actions.Press' on the DOM element with ID '__item1-container-cart---homeView--categoryList-0' -  sap.ui.test.actions.Press
+INFO: Spec finished: should validate the home screen with status: PASSED
+INFO: Spec started: Should search for a product
+DEBUG: Screenshot created "target/report/screenshots/sendKeys_container-cart---homeView--searchField-I_0_2020-06-18T15-03-38.png"
+DEBUG: Screenshot created "target/report/screenshots/teched-Should-search-for-a-product_1_pass_2020-06-18T15-03-40.png"
+INFO: Spec finished call is now
+BROWSER LOG: info: 2020-06-18 18:03:40.165810 Found a DOM reference for the control 'Element sap.m.ObjectListItem#__item4-container-cart---welcomeView--favoriteRow-3'. Executing 'sap.ui.test.actions.Press' on the DOM element with ID '__item4-container-cart---welcomeView--favoriteRow-3' -  sap.ui.test.actions.Press
+BROWSER LOG: info: 2020-06-18 18:03:40.165639 Found a DOM reference for the control 'Element sap.m.ObjectListItem#__item4-container-cart---welcomeView--favoriteRow-2'. Executing 'sap.ui.test.actions.Press' on the DOM element with ID '__item4-container-cart---welcomeView--favoriteRow-2' -  sap.ui.test.actions.Press
+BROWSER LOG: info: 2020-06-18 18:03:40.165419 Found a DOM reference for the control 'Element sap.m.ObjectListItem#__item4-container-cart---welcomeView--favoriteRow-1'. Executing 'sap.ui.test.actions.Press' on the DOM element with ID '__item4-container-cart---welcomeView--favoriteRow-1' -  sap.ui.test.actions.Press
+BROWSER LOG: info: 2020-06-18 18:03:40.165274 Found a DOM reference for the control 'Element sap.m.ObjectListItem#__item4-container-cart---welcomeView--favoriteRow-0'. Executing 'sap.ui.test.actions.Press' on the DOM element with ID '__item4-container-cart---welcomeView--favoriteRow-0' -  sap.ui.test.actions.Press
+BROWSER LOG: info: 2020-06-18 18:03:40.165090 Found a DOM reference for the control 'Element sap.m.ObjectListItem#__item3-container-cart---welcomeView--viewedRow-3'. Executing 'sap.ui.test.actions.Press' on the DOM element with ID '__item3-container-cart---welcomeView--viewedRow-3' -  sap.ui.test.actions.Press
+BROWSER LOG: info: 2020-06-18 18:03:40.164879 Found a DOM reference for the control 'Element sap.m.ObjectListItem#__item3-container-cart---welcomeView--viewedRow-2'. Executing 'sap.ui.test.actions.Press' on the DOM element with ID '__item3-container-cart---welcomeView--viewedRow-2' -  sap.ui.test.actions.Press
+BROWSER LOG: info: 2020-06-18 18:03:40.164594 Found a DOM reference for the control 'Element sap.m.ObjectListItem#__item3-container-cart---welcomeView--viewedRow-1'. Executing 'sap.ui.test.actions.Press' on the DOM element with ID '__item3-container-cart---welcomeView--viewedRow-1' -  sap.ui.test.actions.Press
+BROWSER LOG: info: 2020-06-18 18:03:40.164379 Found a DOM reference for the control 'Element sap.m.ObjectListItem#__item3-container-cart---welcomeView--viewedRow-0'. Executing 'sap.ui.test.actions.Press' on the DOM element with ID '__item3-container-cart---welcomeView--viewedRow-0' -  sap.ui.test.actions.Press
+BROWSER LOG: info: 2020-06-18 18:03:40.164179 Found a DOM reference for the control 'Element sap.m.ObjectListItem#__item2-container-cart---welcomeView--promotedRow-1'. Executing 'sap.ui.test.actions.Press' on the DOM element with ID '__item2-container-cart---welcomeView--promotedRow-1' -  sap.ui.test.actions.Press
+BROWSER LOG: info: 2020-06-18 18:03:40.163915 Found a DOM reference for the control 'Element sap.m.ObjectListItem#__item2-container-cart---welcomeView--promotedRow-0'. Executing 'sap.ui.test.actions.Press' on the DOM element with ID '__item2-container-cart---welcomeView--promotedRow-0' -  sap.ui.test.actions.Press
+BROWSER LOG: info: 2020-06-18 18:03:40.163594 Found a DOM reference for the control 'Element sap.m.ObjectListItem#__item0-container-cart---homeView--productList-2'. Executing 'sap.ui.test.actions.Press' on the DOM element with ID '__item0-container-cart---homeView--productList-2' -  sap.ui.test.actions.Press
+BROWSER LOG: info: 2020-06-18 18:03:40.163330 Found a DOM reference for the control 'Element sap.m.ObjectListItem#__item0-container-cart---homeView--productList-1'. Executing 'sap.ui.test.actions.Press' on the DOM element with ID '__item0-container-cart---homeView--productList-1' -  sap.ui.test.actions.Press
+BROWSER LOG: info: 2020-06-18 18:03:40.163034 Found a DOM reference for the control 'Element sap.m.ObjectListItem#__item0-container-cart---homeView--productList-0'. Executing 'sap.ui.test.actions.Press' on the DOM element with ID '__item0-container-cart---homeView--productList-0' -  sap.ui.test.actions.Press
+INFO: Spec finished: Should search for a product with status: PASSED
+INFO: Spec started: Should navigate to the product
+DEBUG: Screenshot created "target/report/screenshots/click___item0-container-cart---homeView--productList-0-titleText_0_2020-06-18T15-03-42.png"
+DEBUG: Screenshot created "target/report/screenshots/teched-Should-navigate-to-the-product_1_pass_2020-06-18T15-03-44.png"
+DEBUG: Screenshot created "target/report/screenshots/teched-Should-navigate-to-the-product_2_pass_2020-06-18T15-03-46.png"
+INFO: Spec finished call is now
+INFO: Suite finished call is now
+INFO: Overall status call is now
+BROWSER LOG: info: 2020-06-18 18:03:46.007645 Found a DOM reference for the control 'Element sap.m.Button#__button10'. Executing 'sap.ui.test.actions.Press' on the DOM element with ID '__button10' -  sap.ui.test.actions.Press
+BROWSER LOG: info: 2020-06-18 18:03:44.382949 Found a DOM reference for the control 'Element sap.m.ObjectHeader#__header0'. Executing 'sap.ui.test.actions.Press' on the DOM element with ID '__header0-title' -  sap.ui.test.actions.Press
+BROWSER LOG: error: 2020-06-18 18:03:43.025489 No data loaded for expand property: Products of entry: undefined -  
+BROWSER LOG: error: 2020-06-18 18:03:43.024495 No data loaded for select property: DimensionUnit of entry: Products('HT-6130') -  
+BROWSER LOG: info: 2020-06-18 18:03:42.314570 Found a DOM reference for the control 'Element sap.m.Text#__item0-container-cart---homeView--productList-0-titleText'. Executing 'sap.ui.test.actions.Press' on the DOM element with ID '__item0-container-cart---homeView--productList-0-titleText' -  sap.ui.test.actions.Press
+INFO: Spec finished: Should navigate to the product with status: PASSED
+INFO: Suite finished: teched with status: PASSED for: 19.419s
+INFO: Suite specs summary, total: 3, passed: 3, failed: 0, pending: 0, disabled: 0
+INFO: Suite expectations summary, total: 4, passed: 4, failed total: 0, failed with error: 0, failed with image comparison: 0
+[18:03:46] I/launcher - 0 instance(s) of WebDriver still running
+[18:03:46] I/launcher - chrome #01 passed
+DEBUG: Tearing down connection provider environment
