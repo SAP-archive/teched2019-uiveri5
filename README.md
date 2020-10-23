@@ -1,3 +1,5 @@
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/teched2019-uiveri5)](https://api.reuse.software/info/github.com/SAP-samples/teched2019-uiveri5)
+
 # SAP TechEd 2019 UIVeri5 Testing 
 This project provides code samples and a test case to demo UIVeri5 testing for a hands-on session at SAP TechEd 2019. These test cases cover end-to-end, system and scenario tests.
 
@@ -23,4 +25,4 @@ uiveri5 --params.user=<user> --params.pass=<password>
 This project is provided "as-is": there is no guarantee that raised issues will be answered or addressed in future releases.
 
 # License
-Copyright (c) 2019 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the SAP Sample Code License, except as noted otherwise in the [LICENSE](LICENSE) file.
+Copyright (c) 2019 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the SAP Sample Code License, except as noted otherwise in the [LICENSE](LICENSES/Apache-2.0.txt) file.
