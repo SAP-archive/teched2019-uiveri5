@@ -6,9 +6,9 @@ To run the app, you need to have node and npm installed. In conf.js, baseUrl par
 
 # Download and Installation
 To run the app you have to do following steps:
-Clone the repo:
+Clone the repo and checkout the "central" branch:
 ```bash
-git clone https://github.com/SAP-samples/teched2019-uiveri5.git
+git clone --branch central https://github.com/SAP-samples/teched2019-uiveri5.git
 ```
 Than navigate into directory:
 
@@ -17,7 +17,7 @@ cd teched2019-uiveri5
 ```
 To run tests
 ```bash
-uiveri5 --params.user=<user> --params.pass=<password>
+uiveri5
 ```
 # Support
 This project is provided "as-is": there is no guarantee that raised issues will be answered or addressed in future releases.
